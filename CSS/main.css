@@ -1,0 +1,268 @@
+body {
+    
+
+    background-image: url("../images/white-wood.jpeg");
+    background-color: #cccccc;
+
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+}
+
+.formRight {
+  display:inline-block;
+}
+
+
+.button {
+    background-color: white;
+    border-color:black;
+    color: black;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    width:20%;
+
+  }
+
+.Leftalign{
+    text-align: left;
+}
+
+.reservation{
+    text-align:center;
+    margin-left:50%;
+    margin-right:50%;
+}
+
+.team{
+    display: inline-block;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+
+.inline{
+    display:inline-block;
+}
+
+#Bottom{    
+    text-align: center;
+}
+
+#Centered {
+    display: inline-block;
+    text-align: left;
+  }
+
+
+div.flexcontainer{
+    display: flex;
+    /* min-height: 200px; */
+    max-height:20%;
+    max-width:100%;
+    font-size:15px;
+}
+
+.center{
+    text-align: center;
+}
+
+.aligned{
+    align-items: center;
+}
+
+.right{
+    flex: 1;
+    padding: 10px;
+}
+
+.small{
+    flex: 1;
+    padding: 10px;
+}
+
+.medium{
+    flex: 2;
+    padding: 10px;
+}
+
+.large{
+    flex: 2;
+    padding: 10px;
+}
+
+.left{
+    flex: 2;
+    padding: 10px;
+}
+
+.separate{
+    margin-top: 100px;
+}
+
+footer {
+    background-image: url("../images/Aba-wood-1.jpg");
+    text-align: right;
+
+    color:white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  /* New start */
+  .grid-container {
+    display: grid;
+    grid-template-columns: 25% auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    max-height:20%;
+  }
+
+  .grid-form {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    max-height:20%;
+  }
+  
+  .grid-formed {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    max-height:20%;
+    /* display: inline-block; */
+  }
+
+  .grid-food {
+    display: grid;
+    grid-template-columns: 70% auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .grid-swap {
+    display: grid;
+    grid-template-columns: auto 70%;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+
+  .grid-solo {
+    display: grid;
+    grid-template-columns: auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    max-height:20%;
+    text-align:center;
+  }
+
+
+  .grid-picture {
+    display: grid;
+    grid-template-columns: 40% auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    max-height: 400px;
+  }  
+
+  .grid-bottom {
+    display: grid;
+    grid-template-columns: 55% auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+    padding-top: 100px;
+    max-height: 400px;
+    background-image: url(/images/Aba-wood-1.jpg);
+    color:white;
+  }  
+
+  /* .grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  } */
+
+
+  /* Dropdown Button */
+.dropbtn {
+  background-color: #3498DB;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+  background-color: #2980B9;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
